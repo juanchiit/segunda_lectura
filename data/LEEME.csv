@@ -1,0 +1,12 @@
+﻿Paso,Instrucción
+1,En Google Sheets crea una hoja nueva y asígnale el nombre Catálogo.
+2,Importa data/plantilla-catalogo.csv en la pestaña Catálogo: Archivo > Importar > Subir > Reemplazar hoja actual.
+3,Mantén las 12 columnas y sus nombres. No cambies el orden de los libros salvo que quieras cambiar el orden de la web.
+4,tipo: escribe Libro o Cuaderno. Los libros van primero y los cuadernos al final.
+5,generos: sepáralos con | (por ejemplo: Fantasía juvenil | Romance | Misterio).
+6,"precio: escribe solo el número (por ejemplo 18000). Si el precio es especial, agrega la aclaración en precio_nota (por ejemplo c/u o los 3)."
+7,imagen: pega la URL de Cloudinary o la ruta local /libros/archivo.jpg. No uses enlaces de Google Drive.
+8,"publicacion: Publicado para mostrarlo, Vendido para ocultarlo sin borrar la fila, Borrador para ocultarlo mientras lo preparas."
+9,"Para cuadernos solo son obligatorios tipo, titulo, descripcion, precio e imagen. autor, generos, anio, sinopsis y condicion pueden quedar vacíos."
+10,"Comparte la hoja con ""Cualquier persona con el enlace"" como Lector. No hace falta compartirla públicamente en la web."
+11,"Los cambios se publican solos en la web unos minutos después de guardar. Si algo tiene un error, la web mantiene la última versión buena."

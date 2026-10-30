@@ -1,0 +1,21 @@
+node_modules
+dist
+dist-server
+.env
+.env.local
+.env.*.local
+.vite
+*.log
+.DS_Store
+public/estado.json
+
+# Material de origen que no se usa en el build de Netlify
+Libros/*
+!Libros/Catalogo_de_libros.txt
+
+# Referencias de diseño
+*.pdf
+Captura de pantalla*.png
+IMG_2067.PNG
+IMG_2068.PNG
+logo SL.jpg

@@ -1,0 +1,499 @@
+{
+  "generatedAt": "2026-10-29T00:43:21.142Z",
+  "source": "Libros/Catalogo_de_libros.txt",
+  "libros": [
+    {
+      "tipo": "libro",
+      "slug": "el-legado-robado-holly-black",
+      "titulo": "El legado robado",
+      "autor": "Holly Black",
+      "generos": [
+        "Fantasía"
+      ],
+      "anio": "2023",
+      "sinopsis": "Sigue a Suren, la reina fugitiva de la Corte de los Dientes, quien vive escondida en el mundo humano. Su destino cambia al ser rescatada por el príncipe Oak, su antiguo prometido, quien le pide ayuda para una peligrosa misión en el norte. Juntos deben enfrentar a la cruel madre de Suren, en una historia llena de secretos, magia y traiciones.",
+      "descripcion": "",
+      "estado": "Impecable! Como nuevo",
+      "precio": 20000,
+      "precioTexto": "$20.000",
+      "precioNota": "",
+      "imagen": "/libros/IMG_0595.png",
+      "publicacion": "publicado",
+      "fila": 2
+    },
+    {
+      "tipo": "libro",
+      "slug": "los-siete-maridos-de-evelyn-hugo-taylor-jenkins-reid",
+      "titulo": "Los siete maridos de Evelyn Hugo",
+      "autor": "Taylor Jenkins Reid",
+      "generos": [
+        "Ficción contemporánea",
+        "Drama",
+        "Romance"
+      ],
+      "anio": "2017",
+      "sinopsis": "La legendaria actriz Evelyn Hugo decide contar la verdadera historia de su vida y de sus siete matrimonios a una periodista poco conocida. Entre secretos, ambición y amores prohibidos, su relato revela el precio de la fama y la identidad que ocultó durante décadas.",
+      "descripcion": "",
+      "estado": "Excelente!",
+      "precio": 18000,
+      "precioTexto": "$18.000",
+      "precioNota": "",
+      "imagen": "/libros/IMG_0616.png",
+      "publicacion": "publicado",
+      "fila": 3
+    },
+    {
+      "tipo": "libro",
+      "slug": "la-casa-marionne-j-elle",
+      "titulo": "La casa Marionne",
+      "autor": "J. Elle",
+      "generos": [
+        "Fantasía juvenil",
+        "Romance",
+        "Misterio"
+      ],
+      "anio": "2023",
+      "sinopsis": "Quell intenta escapar de una magia peligrosa que amenaza con revelar un secreto familiar. Al llegar a la misteriosa Casa Marionne, una institución de élite donde se forman jóvenes con poderes, deberá aprender sus reglas mientras descubre intrigas, peligros y secretos sobre su origen.",
+      "descripcion": "",
+      "estado": "Nuevo! Sin leer",
+      "precio": 18000,
+      "precioTexto": "$18.000",
+      "precioNota": "",
+      "imagen": "/libros/IMG_0687.jpeg",
+      "publicacion": "publicado",
+      "fila": 4
+    },
+    {
+      "tipo": "libro",
+      "slug": "percy-jackson-y-el-ladron-del-rayo-rick-riordan",
+      "titulo": "Percy Jackson y el ladrón del rayo",
+      "autor": "Rick Riordan",
+      "generos": [
+        "Fantasía juvenil",
+        "Aventura",
+        "Mitología"
+      ],
+      "anio": "2005",
+      "sinopsis": "Percy descubre que es hijo de un dios griego y que los mitos son reales. Acusado de robar el rayo de Zeus, emprende una misión junto a sus amigos para encontrarlo, evitar una guerra entre los dioses y descubrir la verdad sobre su identidad.",
+      "descripcion": "",
+      "estado": "Muy bueno",
+      "precio": 18000,
+      "precioTexto": "$18.000",
+      "precioNota": "",
+      "imagen": "/libros/IMG_0737.png",
+      "publicacion": "publicado",
+      "fila": 5
+    },
+    {
+      "tipo": "libro",
+      "slug": "cuando-la-amistad-me-acompano-a-casa-paul-griffin",
+      "titulo": "Cuando la amistad me acompañó a casa",
+      "autor": "Paul Griffin",
+      "generos": [
+        "Novela juvenil",
+        "Drama",
+        "Amistad"
+      ],
+      "anio": "2016",
+      "sinopsis": "Ben, un chico solitario, encuentra un perro llamado Flip y, gracias a él, conoce a Halley, una joven que atraviesa una enfermedad difícil. La amistad entre ambos los lleva a vivir aventuras y a descubrir el valor de la familia, la esperanza y los vínculos que ayudan a afrontar las pérdidas.",
+      "descripcion": "",
+      "estado": "Excelente",
+      "precio": 16000,
+      "precioTexto": "$16.000",
+      "precioNota": "",
+      "imagen": "/libros/IMG_0748.png",
+      "publicacion": "publicado",
+      "fila": 6
+    },
+    {
+      "tipo": "libro",
+      "slug": "la-casa-de-los-siete-tejados-nathaniel-hawthorne",
+      "titulo": "La casa de los siete tejados",
+      "autor": "Nathaniel Hawthorne",
+      "generos": [
+        "Novela gótica",
+        "Ficción clásica",
+        "Misterio"
+      ],
+      "anio": "1851",
+      "sinopsis": "En una antigua mansión marcada por una maldición familiar, varias generaciones cargan con las consecuencias de una injusticia del pasado. La llegada de nuevos personajes altera la vida de sus habitantes y abre la posibilidad de romper el ciclo de culpa, resentimiento y desgracia.",
+      "descripcion": "",
+      "estado": "Excelente",
+      "precio": 12000,
+      "precioTexto": "$12.000",
+      "precioNota": "",
+      "imagen": "/libros/IMG_0809.jpeg",
+      "publicacion": "publicado",
+      "fila": 7
+    },
+    {
+      "tipo": "libro",
+      "slug": "betibu-claudia-pineiro",
+      "titulo": "Betibú",
+      "autor": "Claudia Piñeiro",
+      "generos": [
+        "Novela policial",
+        "Thriller",
+        "Suspenso"
+      ],
+      "anio": "2011",
+      "sinopsis": "Una escritora especializada en policiales investiga la muerte de un empresario en un barrio cerrado. Con la ayuda de un periodista experimentado y un joven colega, descubre conexiones entre el crimen, el poder y secretos que ciertos sectores quieren mantener ocultos.",
+      "descripcion": "",
+      "estado": "Excelente",
+      "precio": 17000,
+      "precioTexto": "$17.000",
+      "precioNota": "",
+      "imagen": "/libros/IMG_0819.jpeg",
+      "publicacion": "publicado",
+      "fila": 8
+    },
+    {
+      "tipo": "libro",
+      "slug": "cazadores-de-sombras-ciudad-de-hueso-ciudad-de-ceniza-y-ciudad-de-cristal-primeros-tres-libros-cassandra-clare",
+      "titulo": "Cazadores de sombras: Ciudad de hueso, Ciudad de ceniza y Ciudad de cristal (primeros tres libros)",
+      "autor": "Cassandra Clare",
+      "generos": [
+        "Fantasía urbana juvenil",
+        "Aventura",
+        "Romance"
+      ],
+      "anio": "2007, 2008 y 2009, respectivamente",
+      "sinopsis": "Clary descubre un mundo secreto de cazadores de sombras que combaten demonios y protegen a los humanos. Junto a Jace, Isabelle y Alec, se enfrenta a peligros, traiciones y revelaciones sobre su familia mientras intenta detener los planes de Valentine y evitar una guerra entre distintos seres sobrenaturales.",
+      "descripcion": "",
+      "estado": "Excelente",
+      "precio": 55000,
+      "precioTexto": "$55.000",
+      "precioNota": "los 3",
+      "imagen": "/libros/IMG_0994.jpeg",
+      "publicacion": "publicado",
+      "fila": 9
+    },
+    {
+      "tipo": "libro",
+      "slug": "fuera-de-mi-liga-eleanor-rigby",
+      "titulo": "Fuera de mi liga",
+      "autor": "Eleanor Rigby",
+      "generos": [
+        "Romance contemporáneo"
+      ],
+      "anio": "2024",
+      "sinopsis": "Alexia Lux, una superestrella del pop conocida como «la novia de América», sufre una dolorosa ruptura en plena Super Bowl. Tras un inesperado y caótico beso con Vinny Bravano —carismático jugador de los Boston Beasts—, acuerdan fingir una relación para calmar a la prensa.",
+      "descripcion": "",
+      "estado": "Nuevo!",
+      "precio": 14000,
+      "precioTexto": "$14.000",
+      "precioNota": "",
+      "imagen": "/libros/IMG_1048.jpeg",
+      "publicacion": "publicado",
+      "fila": 10
+    },
+    {
+      "tipo": "libro",
+      "slug": "marfil-mercedes-ron",
+      "titulo": "Marfil",
+      "autor": "Mercedes Ron",
+      "generos": [
+        "Romance juvenil",
+        "Suspenso"
+      ],
+      "anio": "2019",
+      "sinopsis": "Marfil Cortés es secuestrada en Nueva York y, tras ser liberada, su padre contrata a Sebastián Moore como guardaespaldas. Mientras él intenta protegerla de nuevas amenazas, entre ambos surge una atracción que complica la relación profesional y los obliga a enfrentar peligros y secretos.",
+      "descripcion": "",
+      "estado": "Excelente!",
+      "precio": 20000,
+      "precioTexto": "$20.000",
+      "precioNota": "",
+      "imagen": "/libros/IMG_1053.jpeg",
+      "publicacion": "publicado",
+      "fila": 11
+    },
+    {
+      "tipo": "libro",
+      "slug": "loveless-alice-oseman",
+      "titulo": "Loveless",
+      "autor": "Alice Oseman",
+      "generos": [
+        "Novela juvenil",
+        "Ficción contemporánea",
+        "Identidad y autodescubrimiento"
+      ],
+      "anio": "2018",
+      "sinopsis": "Georgia comienza la universidad convencida de que algún día encontrará el amor romántico. Sin embargo, sus experiencias y sus vínculos la llevan a explorar la asexualidad y el arromanticismo, y a descubrir que el amor y la intimidad también pueden construirse a través de la amistad.",
+      "descripcion": "",
+      "estado": "Nuevo!",
+      "precio": 25000,
+      "precioTexto": "$25.000",
+      "precioNota": "",
+      "imagen": "/libros/IMG_1058.jpeg",
+      "publicacion": "publicado",
+      "fila": 12
+    },
+    {
+      "tipo": "libro",
+      "slug": "la-teoria-de-joa-agus-grimm-pitch",
+      "titulo": "La teoría de Joa",
+      "autor": "Agus Grimm Pitch",
+      "generos": [
+        "Ficción adulto joven"
+      ],
+      "anio": "2023",
+      "sinopsis": "Sus vidas se conectan de manera insólita cuando Julia rescata a Joa, quien insólitamente termina tirado en la basura. A partir de allí, ambos se vinculan y confrontan sus miedos, pasados e inseguridades, aprendiendo a aceptarse y a reconocer que merecen amor.",
+      "descripcion": "",
+      "estado": "Nuevo!",
+      "precio": 20000,
+      "precioTexto": "$20.000",
+      "precioNota": "",
+      "imagen": "/libros/IMG_1127.jpeg",
+      "publicacion": "publicado",
+      "fila": 13
+    },
+    {
+      "tipo": "libro",
+      "slug": "mujeres-poderosas-aduenate-de-tu-cuerpo-de-tu-mente-y-de-tus-deseos-adriana-ortiz",
+      "titulo": "Mujeres poderosas: aduéñate de tu cuerpo, de tu mente y de tus deseos",
+      "autor": "Adriana Ortiz",
+      "generos": [
+        "Empoderamiento femenino"
+      ],
+      "anio": "2021",
+      "sinopsis": "Este libro es poderoso. Te ayudará a que tus pasos sean firmes y tus ideas claras. Te conocerás, te amarás más y tendrás herramientas para construir una mejor versión de ti. Pero cuidado: al concluir su lectura tu idea de ser mujer puede cambiar o modificarse en algunos aspectos.",
+      "descripcion": "",
+      "estado": "Excelente. Como nuevo!",
+      "precio": 15000,
+      "precioTexto": "$15.000",
+      "precioNota": "",
+      "imagen": "/libros/IMG_1166.jpeg",
+      "publicacion": "publicado",
+      "fila": 14
+    },
+    {
+      "tipo": "libro",
+      "slug": "la-cupula-stephen-king",
+      "titulo": "La cúpula",
+      "autor": "Stephen King",
+      "generos": [
+        "Ciencia ficción",
+        "Terror",
+        "Thriller"
+      ],
+      "anio": "2009",
+      "sinopsis": "Una cúpula invisible e impenetrable aísla la localidad de Chester's Mill del resto del mundo. A medida que escasean los recursos y crece el miedo, los habitantes deben enfrentarse tanto al misterio de la barrera como a los conflictos y abusos de poder que surgen dentro de la comunidad.",
+      "descripcion": "",
+      "estado": "Impecable",
+      "precio": 26000,
+      "precioTexto": "$26.000",
+      "precioNota": "",
+      "imagen": "/libros/IMG_1169.jpeg",
+      "publicacion": "publicado",
+      "fila": 15
+    },
+    {
+      "tipo": "libro",
+      "slug": "y-los-veranos-pasaran-gonzalo-luduena",
+      "titulo": "Y los veranos pasarán",
+      "autor": "Gonzalo Ludueña",
+      "generos": [
+        "Romance",
+        "Suspenso",
+        "Ficción contemporánea"
+      ],
+      "anio": "2024 (verificar según la edición)",
+      "sinopsis": "Cami y Roma se conocen bailando folclore durante una noche de verano y sienten una conexión inmediata. Pero sus realidades esconden dificultades y secretos: mientras Cami lucha por aceptarse, Roma busca escapar de un pasado peligroso. Deberán decidir si pueden salvar su relación o si necesitan salvarse a sí mismos.",
+      "descripcion": "",
+      "estado": "Como nuevo!",
+      "precio": 25000,
+      "precioTexto": "$25.000",
+      "precioNota": "",
+      "imagen": "/libros/IMG_1193.jpeg",
+      "publicacion": "publicado",
+      "fila": 16
+    },
+    {
+      "tipo": "libro",
+      "slug": "la-enfermedad-como-camino-thorwald-dethlefsen-y-rudiger-dahlke",
+      "titulo": "La enfermedad como camino",
+      "autor": "Thorwald Dethlefsen y Rüdiger Dahlke",
+      "generos": [
+        "Ensayo",
+        "Salud y espiritualidad"
+      ],
+      "anio": "1983",
+      "sinopsis": "Los autores proponen una interpretación simbólica de la enfermedad y de los síntomas como expresiones de conflictos personales. El libro invita a reflexionar sobre el cuerpo y la vida interior; sus planteos son una perspectiva filosófica y no sustituyen la evaluación ni el tratamiento médico.",
+      "descripcion": "",
+      "estado": "Como nuevo!",
+      "precio": 15000,
+      "precioTexto": "$15.000",
+      "precioNota": "",
+      "imagen": "/libros/IMG_1327.jpeg",
+      "publicacion": "publicado",
+      "fila": 17
+    },
+    {
+      "tipo": "libro",
+      "slug": "encuentrame-en-moonlight-jenn-bennett",
+      "titulo": "Encuéntrame en Moonlight",
+      "autor": "Jenn Bennett",
+      "generos": [
+        "Romance juvenil",
+        "Misterio"
+      ],
+      "anio": "2019",
+      "sinopsis": "Birdie, una joven aficionada a los misterios, consigue trabajo nocturno en un hotel y conoce a Daniel, un compañero tan curioso como ella. Juntos investigan el secreto de un escritor famoso que parece ocultarse allí, mientras Birdie se anima a salir de su aislamiento y descubre nuevos sentimientos.",
+      "descripcion": "",
+      "estado": "Sin leer. Como nuevo!",
+      "precio": 18000,
+      "precioTexto": "$18.000",
+      "precioNota": "",
+      "imagen": "/libros/IMG_1589.jpeg",
+      "publicacion": "publicado",
+      "fila": 18
+    },
+    {
+      "tipo": "libro",
+      "slug": "la-guerra-de-las-dos-reinas-jennifer-l-armentrout",
+      "titulo": "La guerra de las dos reinas",
+      "autor": "Jennifer L. Armentrout",
+      "generos": [
+        "Fantasía romántica",
+        "Romance paranormal",
+        "Aventura"
+      ],
+      "anio": "2022",
+      "sinopsis": "Poppy lucha por liberar a Casteel y enfrentarse a la Reina de Sangre. Con sus aliados, deberá reunir fuerzas para proteger a quienes ama y buscar un futuro posible para los reinos, mientras salen a la luz poderes ancestrales y revelaciones que cambian el sentido de la guerra.",
+      "descripcion": "",
+      "estado": "Como nuevo! Impecable",
+      "precio": 29000,
+      "precioTexto": "$29.000",
+      "precioNota": "",
+      "imagen": "/libros/IMG_1895.png",
+      "publicacion": "publicado",
+      "fila": 19
+    },
+    {
+      "tipo": "libro",
+      "slug": "the-horse-dancer-one-plus-one-y-silver-bay-3-libros-juntos-jojo-moyes",
+      "titulo": "The Horse Dancer, One Plus One y Silver Bay (3 libros juntos)",
+      "autor": "Jojo Moyes",
+      "generos": [
+        "Ficción contemporánea",
+        "Drama",
+        "Romance"
+      ],
+      "anio": "The Horse Dancer (2009), One Plus One (2014) y Silver Bay (2007)",
+      "sinopsis": "Tres novelas independientes sobre vínculos que transforman la vida de sus protagonistas. Entre una adolescente unida a su caballo, una madre soltera que recibe ayuda inesperada y una comunidad costera amenazada por un proyecto turístico, las historias exploran la familia, la amistad, el amor y las segundas oportunidades.",
+      "descripcion": "",
+      "estado": "Excelente",
+      "precio": 25000,
+      "precioTexto": "$25.000",
+      "precioNota": "c/u",
+      "imagen": "/libros/IMG_1963.png",
+      "publicacion": "publicado",
+      "fila": 20
+    },
+    {
+      "tipo": "libro",
+      "slug": "the-ship-of-brides-y-paris-for-one-2-libros-juntos-jojo-moyes",
+      "titulo": "The Ship of Brides y Paris for One (2 libros juntos)",
+      "autor": "Jojo Moyes",
+      "generos": [
+        "Ficción histórica",
+        "Ficción contemporánea",
+        "Romance"
+      ],
+      "anio": "The Ship of Brides (2005) y Paris for One (2016; colección de relatos)",
+      "sinopsis": "Estas obras exploran cambios personales y nuevas oportunidades amorosas. The Ship of Brides sigue a mujeres australianas que viajan a Inglaterra tras la Segunda Guerra Mundial para reunirse con sus maridos; Paris for One reúne historias de mujeres que, en distintos momentos, se animan a salir de su rutina y tomar decisiones inesperadas.",
+      "descripcion": "",
+      "estado": "Excelente",
+      "precio": 25000,
+      "precioTexto": "$25.000",
+      "precioNota": "c/u",
+      "imagen": "/libros/IMG_1965.png",
+      "publicacion": "publicado",
+      "fila": 21
+    },
+    {
+      "tipo": "libro",
+      "slug": "la-princesa-de-papel-erin-watt-seudonimo-de-elle-kennedy-y-jen-frederick",
+      "titulo": "La princesa de papel",
+      "autor": "Erin Watt (seudónimo de Elle Kennedy y Jen Frederick)",
+      "generos": [
+        "Romance juvenil",
+        "Drama",
+        "New adult"
+      ],
+      "anio": "2016",
+      "sinopsis": "Ella Harper, acostumbrada a valerse por sí misma, pasa a vivir con la adinerada familia Royal tras un cambio inesperado. En una casa llena de reglas, rivalidades y secretos, deberá encontrar su lugar y enfrentarse especialmente a Reed Royal, cuya hostilidad esconde una relación cada vez más compleja.",
+      "descripcion": "",
+      "estado": "Excelente! Como nuevo",
+      "precio": 22000,
+      "precioTexto": "$22.000",
+      "precioNota": "",
+      "imagen": "/libros/IMG_1978.png",
+      "publicacion": "publicado",
+      "fila": 22
+    },
+    {
+      "tipo": "libro",
+      "slug": "el-verano-en-el-que-rompimos-las-normas-k-l-walther",
+      "titulo": "El verano en el que rompimos las normas",
+      "autor": "K. L. Walther",
+      "generos": [
+        "Romance juvenil",
+        "Comedia romántica"
+      ],
+      "anio": "2021 (original en inglés; edición española posterior)",
+      "sinopsis": "Tras la muerte de su hermana, Meredith vuelve a reunirse con su familia durante unas vacaciones en Martha's Vineyard. Allí participa en el tradicional juego familiar del asesino, decidido a honrar su memoria, pero una alianza inesperada con un integrante de la boda hace que el juego y sus sentimientos se compliquen.",
+      "descripcion": "",
+      "estado": "Como nuevo! Impecable",
+      "precio": 25000,
+      "precioTexto": "$25.000",
+      "precioNota": "",
+      "imagen": "/libros/IMG_1981.png",
+      "publicacion": "publicado",
+      "fila": 23
+    },
+    {
+      "tipo": "libro",
+      "slug": "culpa-mia-mercedes-ron",
+      "titulo": "Culpa mía",
+      "autor": "Mercedes Ron",
+      "generos": [
+        "Romance juvenil",
+        "Drama",
+        "New adult"
+      ],
+      "anio": "2017",
+      "sinopsis": "Noah debe mudarse a la mansión del nuevo marido de su madre, donde conoce a Nick, su hermanastro. Aunque al principio chocan por sus personalidades opuestas, la atracción entre ambos crece mientras descubren secretos familiares y se enfrentan a situaciones que ponen a prueba sus límites.",
+      "descripcion": "",
+      "estado": "Excelente. Como nuevo!",
+      "precio": 30000,
+      "precioTexto": "$30.000",
+      "precioNota": "",
+      "imagen": "/libros/IMG_1985.jpeg",
+      "publicacion": "publicado",
+      "fila": 24
+    },
+    {
+      "tipo": "libro",
+      "slug": "crepusculo-stephenie-meyer",
+      "titulo": "Crepúsculo",
+      "autor": "Stephenie Meyer",
+      "generos": [
+        "Fantasía juvenil",
+        "Romance paranormal",
+        "Vampiros"
+      ],
+      "anio": "2005",
+      "sinopsis": "Bella Swan se muda a un pequeño pueblo y conoce a Edward Cullen, un joven misterioso que oculta un secreto sobrenatural. Su relación se vuelve intensa y peligrosa cuando Bella descubre que Edward es un vampiro y que acercarse a su mundo implica riesgos.",
+      "descripcion": "",
+      "estado": "Impecable!",
+      "precio": 25000,
+      "precioTexto": "$25.000",
+      "precioNota": "",
+      "imagen": "/libros/IMG_1991.jpeg",
+      "publicacion": "publicado",
+      "fila": 25
+    }
+  ],
+  "cuadernos": []
+}
