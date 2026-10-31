@@ -47,16 +47,29 @@ function configurar() {
 }
 
 function instalarTrigger() {
-  const existentes = ScriptApp.getProjectTriggers().filter(
+  const triggers = ScriptApp.getProjectTriggers()
+
+  const cambio = triggers.filter(
     (trigger) => trigger.getHandlerFunction() === 'alCambiar',
   )
 
-  if (existentes.length === 0) {
+  if (cambio.length === 0) {
     ScriptApp.newTrigger('alCambiar')
       .forSpreadsheet(SpreadsheetApp.getActive())
       .onChange()
       .create()
   }
+
+  triggers
+    .filter(
+      (trigger) => trigger.getHandlerFunction() === 'publicarSiCorresponde',
+    )
+    .forEach((trigger) => ScriptApp.deleteTrigger(trigger))
+
+  ScriptApp.newTrigger('publicarSiCorresponde')
+    .timeBased()
+    .everyMinutes(1)
+    .create()
 
   SpreadsheetApp.getUi().alert(
     'Activador instalado. La web se publicará 5 minutos después del último cambio.',
@@ -67,19 +80,10 @@ function alCambiar(evento) {
   const hoja = evento?.source?.getActiveSheet?.()
   if (hoja && hoja.getName() !== HOJA_CATALOGO) return
 
-  const propiedades = PropertiesService.getScriptProperties()
-  propiedades.setProperty(PROPIEDAD_PENDIENTE, String(Date.now()))
-
-  const pendientes = ScriptApp.getProjectTriggers().filter(
-    (trigger) => trigger.getHandlerFunction() === 'publicarSiCorresponde',
+  PropertiesService.getScriptProperties().setProperty(
+    PROPIEDAD_PENDIENTE,
+    String(Date.now()),
   )
-
-  if (pendientes.length === 0) {
-    ScriptApp.newTrigger('publicarSiCorresponde')
-      .timeBased()
-      .after(ESPERA_MS)
-      .create()
-  }
 }
 
 function publicarSiCorresponde() {
@@ -91,28 +95,20 @@ function publicarSiCorresponde() {
   if (!ultimoCambio) return
 
   const restante = ESPERA_MS - (Date.now() - ultimoCambio)
-
-  if (restante > 0) {
-    ScriptApp.newTrigger('publicarSiCorresponde')
-      .timeBased()
-      .after(restante)
-      .create()
-    return
-  }
+  if (restante > 0) return
 
   propiedades.deleteProperty(PROPIEDAD_PENDIENTE)
-  lanzarBuild()
+
+  try {
+    lanzarBuild()
+  } catch (error) {
+    console.error(error)
+  }
 }
 
 function publicarAhora() {
   const propiedades = PropertiesService.getScriptProperties()
   propiedades.deleteProperty(PROPIEDAD_PENDIENTE)
-
-  ScriptApp.getProjectTriggers()
-    .filter(
-      (trigger) => trigger.getHandlerFunction() === 'publicarSiCorresponde',
-    )
-    .forEach((trigger) => ScriptApp.deleteTrigger(trigger))
 
   lanzarBuild()
   SpreadsheetApp.getUi().alert(
